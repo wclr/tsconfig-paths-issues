@@ -1,0 +1,14 @@
+{
+  "name": "tsconfig-paths-issues",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node -r tsconfig-paths/register test"
+  },
+  "dependencies": {
+    "tsconfig-paths": "^3.7.0",
+    "plugin-error": "^1.0.1",
+    "webpack-log": "^2.0.0"
+  }
+}
